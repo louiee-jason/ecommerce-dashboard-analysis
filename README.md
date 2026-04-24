@@ -1,44 +1,46 @@
-# E-Commerce Data Analysis & Dashboard
+# E-Commerce Data Analysis & Interactive Dashboard
 
 ## Live Dashboard
 https://louiee-jason-ecommerce-dashboard-analysis.streamlit.app/
 
-## Description
-This project aims to analyze an e-commerce dataset to understand transaction patterns, product category performance, and customer payment preferences. The analysis includes data cleaning, exploratory data analysis (EDA), visualization, and RFM analysis. The results are presented through an interactive dashboard built using Streamlit.
+## Overview
+This project analyzes e-commerce transaction data to uncover revenue patterns, customer behavior, and product performance. The insights are delivered through an interactive dashboard built with Streamlit.
 
-## Key Features
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Revenue trend analysis
-- Product category analysis
-- Payment method analysis
-- RFM analysis for customer segmentation
-- Interactive dashboard using Streamlit
+## Objectives
+- Understand revenue trends and sales patterns
+- Analyze product category performance
+- Identify customer purchasing behavior
+- Perform customer segmentation using RFM analysis
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Streamlit
+## Methodology
 
-## Environment Setup
+### 1. Data Preprocessing
+- Data cleaning and handling missing values
+- Feature transformation and formatting
 
-### Using Conda
-conda create --name main-ds python=3.9  
-conda activate main-ds  
-pip install -r requirements.txt  
+### 2. Exploratory Data Analysis (EDA)
+- Revenue trend over time
+- Product category contribution
+- Payment method distribution
 
-### Using Pipenv
-pip install pipenv  
-pipenv install  
-pipenv shell  
-pip install -r requirements.txt  
+### 3. Customer Segmentation
+- RFM (Recency, Frequency, Monetary) analysis
+- Identification of high-value and low-engagement customers
 
-## Run the Dashboard
-streamlit run dashboard/dashboard.py  
+### 4. Dashboard Development
+- Built interactive dashboard using Streamlit
+- Visualized key KPIs and trends
 
 ## Key Insights
-- Revenue increased significantly and peaked at the end of 2017  
-- Sales are dominated by a few main product categories  
-- Credit card is the most commonly used payment method  
-- Most customers only make a single transaction  
+- Revenue peaked in late 2017, but repeat purchase rate remains low
+- A small number of product categories generate the majority of revenue (Pareto principle)
+- Most customers make only a single transaction, indicating low retention
+- Credit card is the dominant payment method
+
+## Business Recommendations
+- Implement loyalty programs to improve customer retention
+- Target one-time buyers with personalized promotions
+- Focus marketing efforts on high-performing product categories
+
+## Tech Stack
+Python, Pandas, Matplotlib, Streamlit
