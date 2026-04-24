@@ -3,13 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # load data
-df = pd.read_csv('main_data.csv')
-
-# sampling otomatis kalau data besar
-if len(df) > 50000:
-    df = df.sample(n=20000, random_state=42)
-
-# convert datetime
+df = pd.read_csv('clean_data.csv')
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
 df['order_month'] = df['order_purchase_timestamp'].dt.to_period('M').astype(str)
 
