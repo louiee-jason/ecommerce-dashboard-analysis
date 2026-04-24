@@ -12,17 +12,6 @@ pip install -r requirements.txt
 Then run the following command:
 streamlit run dashboard/dashboard.py
 
-Project structure:
-submission/
-├── dashboard/
-│   ├── dashboard.py
-│   └── main_data.csv
-├── data/
-│   ├── raw datasets
-├── notebook.ipynb
-├── README.md
-└── requirements.txt
-
 Key insights obtained from this analysis:
 - Revenue increased significantly and peaked at the end of 2017
 - Sales are dominated by a few main product categories
