@@ -1,7 +1,7 @@
 # E-Commerce Data Analysis & Interactive Dashboard
 
 ## Live Dashboard
-https://louiee-jason-ecommerce-dashboard-analysis.streamlit.app/
+https://ecommerce-dashboard-analysis-louieejason.streamlit.app/
 
 ## Overview
 This project analyzes e-commerce transaction data to uncover revenue patterns, customer behavior, and product performance. The insights are delivered through an interactive dashboard built with Streamlit.
